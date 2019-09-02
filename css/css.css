@@ -1,0 +1,123 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+ 
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+
+}
+ 
+.menu{
+list-style:none; 
+border:1px solid #c0c0c0; 
+padding: 3px;
+float:left;
+
+
+}
+.menu li{
+position:relative; 
+float:left; 
+border-right:1px solid #c0c0c0; 
+}
+.menu li a{
+	color:#333; 
+	text-decoration:none; 
+	padding:5px 10px; 
+	display:block;
+}
+.menu li a:hover {
+	font-size: 20px;
+}
+
+nav {
+	border:solid 2px  black;
+	height: 150px;
+	width: 100%;
+}
+img{
+	width: 250px;
+	position: absolute;
+	left: 80%;
+	height: 140px;
+}
+.titulo h1{
+	left: 45%;
+	position: absolute;
+
+	top:40px;
+}
+.tituloconteudo h1{
+ text-align: center;
+ top: 50px;
+}
+
+section{
+	position: absolute;
+	border: 1px solid black;
+	border-radius:5px;
+	top : 164px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	
+	
+
+}
+article section p {
+	align-items: justify;
+	font-size: 18px;
+}
+article section header h1{
+	text-align: center;
+	font-size: 18px;
+}
+
+.Vantagem{
+	left: 5px;
+	width: 380px;
+	height: 398px;
+}
+
+}
+article{	
+	background-color:#696969;
+
+}
+.Impressoes{
+	left: 460px;
+	height: 507;
+	width: 380px;
+}
+	
+ 
+.Custo-benefício{
+	height: 507;
+	width: 380px;
+	left: 900px;
+}
+footer{
+	top: 660px;
+	position: absolute;
+	align-items: center;
+	left: 38%;
+}
+footer h1,h2{
+	text-align: center;
+	
+}
+#telefone{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 44px;
+	left: 30px;
+
+}
+#simbolo{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 88px;
+	left: -34px;
+}
